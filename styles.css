@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5D04E;
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    width: 23rem;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 1px 0.2px rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out
+}
+
+main:hover {
+    box-shadow: 10px 10px 1px 3px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.img img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.timing h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #F5D04E;
+    width: 90px;
+    padding-left: 10px;
+}
+
+.timing p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.6rem;
+    padding: 5px 0;
+    color: hsl(0, 0%, 7%);
+    transition: all 0.3s ease-in-out
+}
+
+h1:hover {
+    color: #F5D04E;
+    cursor: pointer;
+}
+
+.info p {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.4rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 5px 0;
+    width: 9rem;
+
+}
+
+.profile img {
+    width: 40px;
+}
+
+.attribution {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
